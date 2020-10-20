@@ -1,0 +1,21 @@
+So one way to solve for the sock merchant challenge is to sort the array, compare each item side by side to find a pair and total the number of pairs we find
+
+So our first step, we will create a variable to hold the sorted array and use the built-in sort method the sort method can take a compare function as an argument. 
+The passed-in compare function will ensure that items are sorted in ascending order
+
+Next, we create a pairs variable which will hold the final count, we default it to 0
+
+At this point, this would be the expected output from sorted if we were to pass in our socks array
+
+Next, we set up a for loop.
+We naturally start at index 0 but since we are going to compare items side by side we make a full stop at last index
+
+Now we can compare each item of the array with its direct sibling to
+Find a pair
+
+We increment the pair's value if we find a match. We also increment i
+By one to skip the next item since we have already checked it
+
+If the two items do not match the normal loop cycle will continue
+
+We have now sorted and compared side by side let’s run our solution
